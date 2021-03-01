@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Alexa.NET" Version="1.8.1" />
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.5.0" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.101.56" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0" />
+    <PackageReference Include="morelinq" Version="3.2.0" />
+    <PackageReference Include="Scrutor" Version="3.1.0" />
+    <PackageReference Include="SimMetrics.Net" Version="1.0.5" />
+    <PackageReference Include="SpotifyAPI.Web" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyMusic.Domain\MyMusic.Domain.csproj" />
+    <ProjectReference Include="..\MyMusic.Extensions\MyMusic.Extensions.csproj" />
+    <ProjectReference Include="..\MyMusic.Infrastructure\MyMusic.Infrastructure.csproj" />
+    <ProjectReference Include="..\MyMusic.Services\MyMusic.Services.csproj" />
+  </ItemGroup>
+
+</Project>
